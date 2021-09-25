@@ -1,3 +1,75 @@
-h1 {
-  color: red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* header section */
+
+header {
+  height: 69px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  top: 0px;
+  background-color: black;
+  z-index: 1;
+}
+
+.navigation li {
+  list-style-type: none;
+  display: inline;
+  text-decoration: underline;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+#logo {
+  height: 50px;
+  margin-left: 10px;
+}
+
+/* Main section */
+
+main {
+  position: relative;
+  top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  width: 1200px;
+}
+
+.mission {
+  background-image: url("../media/pictures/img-mission-background.webp");
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#missionstatement {
+  background-color: black;
+  width: 100%;
+  padding: 10px;
+}
+
+#missionstatement h2 {
+  padding-bottom: 20px;
 }
